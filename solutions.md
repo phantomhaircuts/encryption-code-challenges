@@ -11,7 +11,7 @@ def maskify(cc)
 end
 ```
 
-# Caesar Cipher II (with Bonus)
+# Caesar Cipher II
 
 ```rb
 def caesar(str, num)
