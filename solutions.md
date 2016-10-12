@@ -20,3 +20,13 @@ def caesar(str, num)
       .join()
 end
 ```
+
+# Atbash Cipher
+
+```rb
+def atbash str
+  abc = "abcdefghijklmnopqrstuvwxyz".split("")
+  str.split("")
+     .map { |char| abc[-(abc.index(char) + 1)] }
+end
+```
