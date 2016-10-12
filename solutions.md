@@ -13,8 +13,10 @@ end
 
 # Caesar Cipher II (with Bonus)
 
+```rb
 def caesar(str, num)
   str.split("")
       .map { |char| char == char[/[a-zA-Z]*/] ? (char.ord + num).chr : char }
       .join()
 end
+```
