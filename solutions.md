@@ -10,6 +10,9 @@ def maskify(cc)
   cc
 end
 ```
+```js
+var maskify = (string) => string.substr(0, string.length - 4).replace(/./g, "*").concat(string.substr(string.length - 4));
+```
 
 # Caesar Cipher II
 
